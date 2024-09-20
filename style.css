@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1F5673;
+}
+.main h1{
+  text-transform: capitalize;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  
+  color: #FFF23E;
+   text-shadow: -2px -2px 3px  #000000;
+}
+.game{
+  width: 350px;
+  height: 350px;
+  margin: 40px auto 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7.8px;
+}
+button{
+  outline: none;
+  border: none;
+  
+}
+.box{
+  width: 111px;
+  height: 111px;
+  font-size: 70px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 7px 0.5px #000000;
+  text-shadow: -2px -2px 3px  #000000;
+  color: #73731F;
+}
+
+.rbtn{
+  display: flex;
+  justify-content: center;
+}
+ .rbtn .reset{
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  background-color: #252525;
+  box-shadow: 0 0 2px 0.5px #71FFFF;
+color: #FFFFFF;
+}
+.msgContainer{
+  text-align: center;
+  margin: 20px 0;
+}
+.msgContainer button{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 7px 10px 10px 10px;
+  margin-top: 10px;
+  background-color: #fff;
+  color: #73731F;
+  font-weight: 700;
+}
+.msgContainer .msg{
+  color: #94FF02;
+}
+.hide{
+  display: none;
+}
